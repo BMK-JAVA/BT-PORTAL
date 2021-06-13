@@ -36,10 +36,22 @@ const routes: Routes = [
     loadChildren: () => import('./pages/student-ws/student-ws.module').then(m => m.StudentWsModule)
   },
   {
-    path: 'student-dashboard',
+    path: 'student-db',
     pathMatch: 'full',
     canActivate: [AuthGuard],
     loadChildren: () => import('./pages/student-dashboard/student-dashboard.module').then(m => m.StudentDashboardModule)
+  },
+  {
+    path: 'student-sh',
+    pathMatch: 'full',
+    canActivate: [AuthGuard],
+    loadChildren: () => import('./pages/student-scheduler/student-scheduler.module').then(m => m.StudentSchedulerModule)
+  },
+  {
+    path: 'student-pl',
+    pathMatch: 'full',
+    canActivate: [AuthGuard],
+    loadChildren: () => import('./pages/student-progress-list/student-progress-list.module').then(m => m.StudentProgressListModule)
   },
   {
     path: 'ui',

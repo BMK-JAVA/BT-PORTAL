@@ -3,7 +3,7 @@
 @import "src/app/styles/variables";
 
 .mat-list-base {
-  border-bottom: 1px solid $gray-80;
+  border-bottom: 1px solid $gray-80 ;
   width: $sidebar-width;
   padding-bottom: 16px;
 
@@ -15,7 +15,7 @@
     padding-left: 4px;
 
     &.active {
-      color: $sidebar-font-color-active;
+      color: darkolivegreen;
       background-color: $sidebar-background-color-active;
       outline: none;
 

@@ -15,7 +15,6 @@ import { AuthModule } from './pages/auth/auth.module';
 import { NgxEchartsModule } from 'ngx-echarts';
 import {HttpClientModule} from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -26,9 +26,10 @@ import {MatCardModule} from '@angular/material/card';
         MatExpansionModule,
         MatCardModule
     ],
-  exports: [
-    HotToDoListComponent
-  ]
+    exports: [
+        HotToDoListComponent,
+        MyCourcesComponent
+    ]
 })
 export class StudentWsModule {
 }
